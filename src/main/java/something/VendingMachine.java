@@ -19,12 +19,12 @@ public class VendingMachine {
     }
 
     public void receive(int i) {
-        if(i == 10 || i == 50 || i == 100 || i == 500 || i == 1001 || i == 5000){
+        if(i == 10 || i == 50 || i == 100 || i == 500 || i == 1000){
             amount+=i;
             moneyBox.add(i);
         }
         else{
-//            changeBox.add(i);
+            changeBox.add(i);
         }
     }
 
