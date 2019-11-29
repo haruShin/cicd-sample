@@ -37,7 +37,7 @@ public class VendingMachine {
     public List<Integer> openChangeBox() {
         var l = new ArrayList<Integer>();
         l.addAll(changeBox);
-//        changeBox.clear();
+        changeBox.clear();
         return l;
     }
 
