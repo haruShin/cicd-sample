@@ -31,7 +31,7 @@ public class VendingMachine {
     public void repayment() {
         amount = 0;
         changeBox.addAll(moneyBox);
-//        moneyBox.clear();
+        moneyBox.clear();
     }
 
     public List<Integer> openChangeBox() {
